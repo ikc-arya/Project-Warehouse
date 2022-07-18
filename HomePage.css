@@ -1,0 +1,179 @@
+body{
+    background-color: #4e3931;
+}
+
+#header{
+    display: block;
+    margin: 0px;
+}
+
+.Lmenubar{
+    margin-left: 0px;
+    padding:0px;
+    width:auto;
+    background-color: #fdae38;
+    float: left;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: inherit;
+    position: sticky;
+    border-color: #2e0606;
+}
+
+a{
+    text-decoration: none;
+    color: #610c0c;
+}
+
+.mIcon{  
+        width: 35px;
+        height: 5px;
+        background-color: #fdae38;
+        margin: 6px 0;
+        border-radius: 5px;
+}
+
+#mainImage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#login{
+    margin-right: 40px;
+    float: right;
+    border-color: antiquewhite;
+    border-radius: 10px;
+}
+  
+  td a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: inherit;
+  }
+  
+  td a.active {
+    background-color: #edeece;
+    color: rgb(29, 11, 11);
+    border-bottom-left-radius: 10px;border-top-right-radius: 10px;
+    border-style: inherit;
+  }
+  
+  td a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    border-bottom-left-radius: 10px;border-top-right-radius: 10px;
+    border-style: inherit;
+  }
+
+  #orderTracking{
+    background-color: #f75435;
+    color: rgb(49, 4, 4);
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2em;
+    /* padding-right: 10em; */
+    min-height: auto;
+  }
+
+  .oTrack{
+    list-style-type: none;
+  }
+
+  h1 {
+    color: green;
+  }
+
+  /* Styling the button
+  .btn {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #3498db;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  } */
+
+  #main {
+    transition: margin-left .5s;
+    padding: 5px;
+    top: 0px;
+  }
+
+  .Lmenubar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    /* margin-left: 0px;
+    padding:0px;
+    width:auto; 
+    background-color: #fdae38;
+    float: left; 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: inherit;
+    position: sticky;
+    border-color: #2e0606; */
+  }
+  
+  .Lmenubar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .Lmenubar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .Lmenubar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .Lmenubar {padding-top: 15px;}
+    .Lmenubar a {font-size: 18px;}
+  }
+
+  

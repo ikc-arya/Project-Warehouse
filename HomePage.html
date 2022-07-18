@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Site Sample 1</title>
+    <link rel="icon" type="image/x-icon" href="logo.svg">
+    <link rel="stylesheet" href="HomePage.css">
+</head>
+
+<body>
+    <div id = "header"></div>
+
+</body>
+
+
+<!-- left menubar -->
+<!-- <div>
+    <div class="mIcon"></div>
+    <div class="mIcon"></div>
+    <div class="mIcon"></div>
+</div> -->
+
+<div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button> 
+
+<!-- main image -->
+<img id="mainImage" src="Logo.svg" alt="warehouse" width="400px" >
+
+<div id="mySidebar" class="Lmenubar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <table>
+        <tr>
+            <td>
+                <a href="#">Home</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Categories</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Quantity</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Cart</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Packaging and Shipment</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="Product_History.html">Order History</a>
+            </td>
+        </tr>
+        
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Branch</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Report</a>
+            </td>
+        </tr>
+        
+    </table>
+</div>
+
+<!-- Login Section -->
+
+
+<div id="login">
+    <img src="Admin.svg" alt="login" width="200">
+</div>
+<br><br><br><br>
+
+ <!-- Current Orders Status  -->
+ 
+    <table id="orderTracking">    
+        <tr>
+            <td>
+                <img src="inventry.svg" alt="login" width="200" style="float:left" >
+            </td>
+            <td>
+                <h2>Current Orders Satatus</h2>           
+                <ul class="oTrack"> 
+                    <li><marquee>Item1</marquee></li>  
+                    <li><marquee>Item2</marquee></li>
+                    <li><marquee>Item3</marquee></li>
+                    <li><marquee>Item4</marquee></li>
+                </ul>
+            </td>
+
+            <td>
+                <ul class="oTrack">
+                    <li><marquee width = "100px">Item5</marquee></li>
+                    <li id="tounmarquee"><marquee>Item6</marquee></li>
+                </ul>     
+            </td>
+        </tr>
+    </table>
+
+    
+    
+    <button id="testB" >
+        Click me to unmarquee Item 6
+    </button>
+
+    <script src="Test.js"></script> 
+
+	<button class="btn">Click me!</button>
+</body>
+
+</html>
