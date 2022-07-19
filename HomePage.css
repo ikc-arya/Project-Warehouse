@@ -2,11 +2,6 @@ body{
     background-color: #4e3931;
 }
 
-#header{
-    display: block;
-    margin: 0px;
-}
-
 .Lmenubar{
     margin-left: 0px;
     padding:0px;
@@ -24,14 +19,6 @@ body{
 a{
     text-decoration: none;
     color: #610c0c;
-}
-
-.mIcon{  
-        width: 35px;
-        height: 5px;
-        background-color: #fdae38;
-        margin: 6px 0;
-        border-radius: 5px;
 }
 
 #mainImage{
@@ -168,9 +155,31 @@ a{
     background-color: #444;
   }
   
+  #home{
+    cursor: pointer;
+    border-style: inherit;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #cart{
+    cursor: pointer;
+    border-style: inherit;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    padding: 2px;
+  }
   
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .Lmenubar {padding-top: 15px;}
     .Lmenubar a {font-size: 18px;}
