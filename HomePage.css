@@ -1,5 +1,5 @@
 body{
-  background-color: #000;
+  background-color: rgb(8, 6, 69);
 }
 
 body, html {
@@ -21,8 +21,8 @@ a{
 
 #login{
     margin-right: 40px;
-    align: right;
-    border-color: antiquewhite;
+    float: right;
+    border-color: rgb(194, 130, 47);
     border-radius: 10px;
 }
   
@@ -61,12 +61,14 @@ a{
     border-top-right-radius: 10px;
     padding: 2em;
     position: relative;
-    background-color: #f75435;
+    background-color: #e7e6bb;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    /* font-size: calc(1.375rem + 1.5vw); */
+    font-weight: 30;
+    line-height:20px
   }
 
   .oTrack{
