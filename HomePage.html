@@ -9,38 +9,53 @@
 
 <body>
     <!-- Login Section -->
-    <div id="login">
-        <img src="Admin.svg" alt="login" width="200">
+    <div class="login">
+        <button class="lbtn">
+            <img src="login.svg" alt="login"width="100">
+            <br>#username
+         </button>
     </div>
 
    
     <!-- parallax starting  -->
     <div class="parallax"></div> 
 
-    <!-- Current Orders Status  -->
-    <table class="orderTracking">    
-        <tr>
-            <td>
-                <img src="inventry.svg" alt="login" width="200" style="float:left" >
-            </td>
-            <td>
-                <h2>Current Orders Satatus</h2>           
-                <ul class="oTrack"> 
-                    <li><marquee>Item1</marquee></li>  
-                    <li><marquee>Item2</marquee></li>
-                    <li><marquee>Item3</marquee></li>
-                    <li><marquee>Item4</marquee></li>
-                </ul>
-            </td>
-
-            <td>
-                <ul class="oTrack">
-                    <li><marquee width = "100px">Item5</marquee></li>
-                    <li id="tounmarquee"><marquee>Item6</marquee></li>
-                </ul>     
-            </td>
-        </tr>
-        </table>
+    <!-- Current Orders Status  -->  
+        <table class="orderTracking">    
+            <tr>
+                <td rowspan="3">
+                    <img src="inventry.svg" alt="login" width="200" style="float:left" >
+                </td>
+                <th colspan="2"><h2>Current Orders Satatus</h2></th>           
+            </tr>
+            <tr>
+                <th>Shipping....</th>
+                <th>Packaging....</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul class="oTrack">
+                        <li>Item</li>  
+                        <li>Item</li>  
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>            
+                </td>
+                <td>
+                    <ul class="oTrack">
+                        <li>Item</li>  
+                        <li>Item</li>  
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>            
+                </td>
+            </tr>
+            
+            </table>
         
     <div class="parallax"></div>
     <!-- paralla-x ending  -->
@@ -98,8 +113,8 @@
         </div>
     
     <!-- Home and Cart Buttons -->
-    <a href="#home"><button id="home"><img src="home_button.svg" alt="home button" width="40px" ></button></a>
-    <a href="#cart"><button id="cart"><img src="cart_button.svg" alt="cart button" width="50px" ></button></a>
+    <a href="#home"><button class="home"><img src="home_button.svg" alt="home button" width="40px" ></button></a>
+    <a href="#cart"><button class="cart"><img src="cart_button.svg" alt="cart button" width="50px" ></button></a>
 
 
     <script src="Test.js"></script> 

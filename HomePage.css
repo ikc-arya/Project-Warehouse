@@ -1,16 +1,16 @@
 body{
-  background-color: rgb(8, 6, 69);
+  background-color: rgb(255, 255, 255);
 }
 
 body, html {
-  height: 80%;
+  height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
 }
 
 a{
     text-decoration: none;
-    color: #610c0c;
+    color: #810f7b;
 }
 
 #mainImage{
@@ -19,11 +19,22 @@ a{
     margin-top: 10px;
 }
 
-#login{
-    margin-right: 40px;
+.login{
+    margin-left: auto;
+    margin-right: 8px;
     float: right;
-    border-color: rgb(194, 130, 47);
+}
+
+.lbtn{
+    cursor: pointer;
+    border-style: inherit;
     border-radius: 10px;
+    background-color: transparent;
+    border-color: bisque;  
+}
+
+.kdiv{
+  background-color: #000;
 }
   
   td a {
@@ -59,16 +70,12 @@ a{
     margin-top: 2rem;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 2em;
+    padding: 1em;
     position: relative;
     background-color: #e7e6bb;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     /* font-size: calc(1.375rem + 1.5vw); */
     font-weight: 30;
-    line-height:20px
+    line-height:20px;
   }
 
   .oTrack{
@@ -133,7 +140,7 @@ a{
   }
   
   .Lmenubar a:hover {
-    color: #bb2b2b;
+    color: #880e75;
   }
   
   .Lmenubar .closebtn {
@@ -162,7 +169,7 @@ a{
     background-size: cover;
   }
 
-  #home, #cart{
+  .home, .cart{
     cursor: pointer;
     border-style: inherit;
     border-radius: 10px;
@@ -173,11 +180,11 @@ a{
     bottom: 20px;
   }
   
-  #home{
+  .home{
     right: 20px;
   }
 
-  #cart{ 
+  .cart{ 
     right: 80px;
     padding: 2px;
   }
