@@ -1,0 +1,202 @@
+body{
+  background-color: rgb(75, 75, 75);
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #810f7b;
+}
+
+#mainImage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.login{
+  margin-left: auto;
+  margin-right: 8px;
+  float: right;
+  align-content: flex-start;
+}
+
+.lbtn{
+  cursor: pointer;
+  border-style: inherit;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: bisque;  
+}
+
+.kdiv{
+  background-color: #000;
+}
+  
+  td a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: inherit;
+  }
+  
+  td a.active {
+    background-color: #edeece;
+    color: rgb(29, 11, 11);
+    border-bottom-left-radius: 10px;border-top-right-radius: 10px;
+    border-style: inherit;
+  }
+  
+  td a:hover:not(.active) {
+    background-color: #555;
+    color: rgb(94, 8, 8);
+    border-bottom-left-radius: 10px;border-top-right-radius: 10px;
+    border-style: inherit;
+  }
+  
+  .sampl{
+    background-color: #810f7b;
+  }
+
+  .orderTracking{
+    color: rgb(49, 4, 4);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem; 
+    margin-top: 2rem;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1em;
+    position: relative;
+    background-color: #e7e6bb;
+    /* font-size: calc(1.375rem + 1.5vw); */
+    font-weight: 30;
+    line-height:20px;
+  }
+
+  .oTrack{
+    list-style-type: none;
+  }
+
+  h1 {
+    color: green;
+  }
+
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color:whitesmoke;
+    /* padding: 10px 15px; */
+    border: inherit;
+    border-radius: 0.7rem;
+
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 2px;
+    top: 0px;
+    position: fixed;
+  }
+
+  .Lmenubar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    /* margin-left: 0px;
+    padding:0px;
+    width:auto; 
+    background-color: #fdae38;
+    float: left; 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: inherit;
+    position: sticky;
+    border-color: #2e0606; */
+  }
+  
+  .Lmenubar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .Lmenubar a:hover {
+    color: #880e75;
+  }
+  
+  .Lmenubar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url('quantity.svg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home, .cart{
+    cursor: pointer;
+    border-style: inherit;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+  }
+  
+  .home{
+    right: 20px;
+  }
+
+  .cart{ 
+    right: 80px;
+    padding: 2px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .Lmenubar {padding-top: 15px;}
+    .Lmenubar a {font-size: 18px;}
+  }
+
+  
