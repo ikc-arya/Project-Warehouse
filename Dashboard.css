@@ -163,7 +163,7 @@ a{
     background-size: cover;
   }
 
-  .home, .cart{
+  .cart{
     cursor: pointer;
     border-style: inherit;
     border-radius: 10px;
@@ -172,14 +172,7 @@ a{
     width: 50px;
     position: fixed;
     bottom: 20px;
-  }
-  
-  .home{
     right: 20px;
-  }
-
-  .cart{ 
-    right: 80px;
     padding: 2px;
   }
   
