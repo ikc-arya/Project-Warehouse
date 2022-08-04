@@ -1,0 +1,115 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+button {
+    border-radius: 5px 5px 0px 0px / 5px 5px 0px 0px;
+    transform: translate(0px, 3px);
+    width: 100px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid black;
+    border-bottom: 0px;
+    margin: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.context0 {
+    font-size: 14px;
+    color: #29367c;
+}
+
+/* --- */
+
+.menu {
+    position: fixed;
+    background: yellowgreen;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.menu > a {
+    margin: auto;
+    font-weight: bold;
+}
+
+.menu > a > li > img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.menu > a > li:hover {
+    color: #fff;
+}
+
+.hidden {
+    width: 100%;
+    height: 100px;
+}
+
+.intro {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://drive.google.com/uc?id=1AnTEftXvFYy4lOSCD4KkKK4sCGgPHUyR);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+}
+
+.intro>.title {
+    padding-top: 200px;
+}
+
+.intro>.title>h1,
+.intro>.title>h4 {
+    color: white;
+}
+
+.intro > .nav {
+    width: 800px;
+    display: flex;
+    text-align: center;
+    margin: 200px auto 0px auto;
+}
+
+.intro > .nav > li {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: auto;
+}
+
+/* intro end */
+
+.information {
+    width: 1280px;
+    margin: 30px auto 30px auto;
+}
+
+.information_box > li > h4 {
+    z-index: -1;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-top: 3px solid black;
+    color: #ff3232;
+}
+
+/* Shipping information end */
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://drive.google.com/uc?id=1md1xXFBWawvhej0aQHEKo6afw6Xb19ZV);
+    border-top: 2px solid #ddd;
+}

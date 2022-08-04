@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>packaging_and_shipment</title>
+    <link rel="stylesheet" href="packaging_and_shipment.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="menu">
+            <a href="../home/home.html">
+                <li>
+                    Home
+                </li>
+            </a>
+            <a href="../Branch/branch.html">
+                <li>
+                    Branch
+                </li>
+            </a>
+            <a href="../Order_History/Product_History.html">
+                <li>
+                    Order history
+                </li>
+            </a>
+            <a href="../Report/report.html">
+                <li>
+                    Report
+                </li>
+            </a>
+        </div>
+
+        <!-- menu end -->
+
+        <div class="hidden"></div>
+        <div class="intro">
+            <h1>PACKAGING&SHIPMENT</h1>
+            <h3>Guidance on packaging and shipping</h3>
+
+            <div class="nav">
+                <li>
+                    <div>
+                        <a href="../Cart/cart.html">
+                            Cart
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../Categories/categories.html">
+                            Categories
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../Quantity/quantity.html">
+                            Quantity
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../Packaging_and_Shipment/packaging_and_shipment.html">
+                            Packaging/Shipment
+                        </a>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+        <!-- intro end -->
+
+        <div class="information">
+            <button id="shipping" onclick="OnOff_ship()">Shipping information</button>
+            <button id="packaging" onclick="OnOff_pack()">Packaging information</button>
+            <div class="information_box">
+                <li id="info1">
+                    <h4>Shipping information</h4>
+                    <p>1. Delivery of the ordered product will be prepared for delivery as soon as payment is confirmed.
+                    </p>
+                    <p>2. Same-day delivery is only available for deposits made by 2pm (14:00).</p>
+                    <p>On the delivery date, the status is 'Preparing for delivery', and if you enter the invoice number
+                        from the courier on the afternoon of the day of delivery, the status will be changed to
+                        'Delivery'.</p>
+                    <p>Delivery tracking can be checked at the courier company the day after the delivery date.</p>
+                    <p>We ask for your understanding as it is difficult for us to confirm the delivery date because the
+                        delivery schedule of a courier company may vary by sales office.</p>
+                </li>
+                <li id="info2" style="display: none;">
+                    <h4>Packaging information</h4>
+                    <p>1. When using courier for general goods, box packaging is the default, and to protect the goods,
+                        they are packed without shaking with sponge, styrofoam, air cap (air vinyl, bubble wrap), etc.
+                    </p>
+                </li>
+            </div>
+        </div>
+
+        <!-- Order history end -->
+    </div>
+    <div class="footer">
+    </div>
+    </div>
+    <script>
+        let shipping = document.getElementById('shipping');
+        let packaging = document.getElementById('packaging');
+        let s_info = document.getElementById('info1');
+        let p_info = document.getElementById('info2');
+        shipOnOff = true;
+        packOnOff = false;
+        shipping.style.background = "#fff";
+        packaging.style.background = "#d3d3d3";
+        function OnOff_ship() {
+            if (shipOnOff == false) {
+                shipOnOff = true;
+                packOnOff = false;
+                shipping.style.background = "#fff";
+                packaging.style.background = "#d3d3d3";
+
+                p_info.style.display = "none";
+                s_info.style.display = "block";
+            }
+        }
+
+        function OnOff_pack() {
+            if (packOnOff == false) {
+                shipOnOff = false;
+                packOnOff = true;
+                shipping.style.background = "#d3d3d3";
+                packaging.style.background = "#fff";
+
+                p_info.style.display = "block";
+                s_info.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
