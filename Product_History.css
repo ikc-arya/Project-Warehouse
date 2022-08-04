@@ -1,0 +1,151 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.context0 {
+    font-size: 14px;
+    color: #29367c;
+}
+
+/* --- */
+
+.menu {
+    position: fixed;
+    background: yellowgreen;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.menu > a {
+    margin: auto;
+    font-weight: bold;
+}
+
+.menu > a > li > img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.menu > a > li:hover {
+    color: #fff;
+}
+
+.hidden {
+    width: 100%;
+    height: 100px;
+}
+
+.intro {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://drive.google.com/uc?id=1AnTEftXvFYy4lOSCD4KkKK4sCGgPHUyR");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+}
+
+.intro>.title {
+    padding-top: 200px;
+}
+
+.intro>.title>h1,
+.intro>.title>h4 {
+    color: white;
+}
+
+.intro > .nav {
+    width: 800px;
+    display: flex;
+    text-align: center;
+    margin: 200px auto 0px auto;
+}
+
+.intro > .nav > li {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: auto;
+}
+
+/* intro end */
+
+.history {
+    margin-left: 100px;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+.history>h2 {
+    padding-bottom: 5px;
+}
+
+.history_box {
+    width: 1000px;
+    height: 80px;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.history>.first {
+    border-top: 2px solid black;
+}
+
+.history>li:last-child {
+    border-bottom: 2px solid black;
+}
+
+.history>li:not(:last-child) {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.history_box>.history_title {
+    margin-bottom: 10px;
+}
+
+.history_title>.date,
+.history_title>.state {
+    color: #b1b1b1;
+}
+
+.history_box>.where {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Order history end */
+
+.pagebox {
+    font-size: 14px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.pagebox>a {
+    cursor: pointer;
+}
+
+.pagebox>a:hover {
+    text-decoration: underline;
+}
+
+/* pagebox end */
+
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    border-top: 2px solid #ddd;
+}
