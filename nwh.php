@@ -8,15 +8,40 @@
 </head>
 <body >
 
+
+<a href="Dashboard.html"><button style="
+            cursor: pointer;
+            border-style: inherit;
+            border-radius: 10px;
+            background-color: transparent;
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;">
+            <img src="home_button.svg" alt="home button" width="40px" ></button></a> 
+    
+          <a href="cartpage.html"><button style="
+            cursor: pointer;
+            border-style: inherit;
+            border-radius: 10px;
+            background-color: transparent;
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            bottom: 20px;
+            right: 80px;
+            padding: 2px;">
+            <img src="cart_button.svg" alt="cart button" width="50px" ></button></a>
 <nav class="navbar">
-<class ="logo">
-<img src="C:\Users\user\Downloads\Logo.svg" height="240px" width="200px">
+<class = "logo">
+<img src="Logo.svg" height="240px" width="200px">
 </class>
 <ul class = "nav-link">
 <li class="nav-items"><a href="#">Home</a></li>
 <li class="nav-items"><a href="#">Branch</a></li>
 <li class="nav-items"><a href="#">Order History </a></li>
-<li class="nav-items"><a href="#">Report</a></li>
+<li class="nav-items"><a href="./report.html">Invoice</a></li>
 </ul>
 </nav>
 <script>
