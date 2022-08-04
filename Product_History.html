@@ -3,120 +3,70 @@
 
 <head>
     <title>Footer</title>
-    <style>
-        * {
-            font-family: 'Noto Sans KR', sans-serif;
-            list-style: none;
-            text-decoration: none;
-            border-collapse: collapse;
-            margin: 0px;
-            padding: 0px;
-            color: #000;
-        }
-
-        .context0 {
-            font-size: 14px;
-            color: #29367c;
-        }
-
-        /* --- */
-
-        .intro {
-            width: 100%;
-            height: 500px;
-            background-image: url(intro.png);
-            text-align: center;
-        }
-
-        .intro > .title {
-            padding-top: 200px;
-        }
-
-        .intro > .title > h1,
-        .intro > .title > h4 {
-            color: white;
-        }
-
-        .history {
-            margin-left: 100px;
-            width: 555px;
-            padding: 10px;
-            margin: auto;
-        }
-
-        .history>h2 {
-            padding-bottom: 5px;
-        }
-
-        .history_box {
-            width: 555px;
-            height: 80px;
-            font-size: 14px;
-            padding: 10px;
-            box-sizing: border-box;
-            background: #fff;
-        }
-
-        .history>.first {
-            border-top: 2px solid black;
-        }
-
-        .history>li:last-child {
-            border-bottom: 2px solid black;
-        }
-
-        .history>li:not(:last-child) {
-            margin-bottom: 10px;
-            border-bottom: 1px solid #c4c4c4;
-        }
-
-        .history_box>.history_title {
-            margin-bottom: 10px;
-        }
-
-        .history_title>.date,
-        .history_title>.state {
-            color: #b1b1b1;
-        }
-
-        .history_box>.where {
-            font-size: 16px;
-            font-weight: bold;
-        }
-
-        /* Order history end */
-
-        .pagebox {
-            font-size: 14px;
-            text-align: center;
-            word-spacing: 10px;
-        }
-
-        .pagebox>a {
-            cursor: pointer;
-        }
-
-        .pagebox>a:hover {
-            text-decoration: underline;
-        }
-
-        /* pagebox end */
-
-
-        .footer {
-            width: 100%;
-            height: 300px;
-            background: skyblue;
-        }
-    </style>
+    <link rel="stylesheet" href="Product_History.css">
 </head>
 
-<body>
+<body>x
     <div class="wrap">
+        <div class="menu">
+            <a href="../home/home.html">
+                <li>
+                    Home
+                </li>
+            </a>
+            <a href="../Branch/branch.html">
+                <li>
+                    Branch
+                </li>
+            </a>
+            <a href="../Order_History/Product_History.html">
+                <li>
+                    Order history
+                </li>
+            </a>
+            <a href="../Report/report.html">
+                <li>
+                    Report
+                </li>
+            </a>
+        </div>
+
+        <!-- menu end -->
+
+        <div class="hidden"></div>
         <div class="intro">
-            <div class="title">
-            <h1>Grab N GO</h1>
-            <h4>fast . fresh . friendly</h4>
+            <h1>ORDER HISTORY</h1>
+            <h3>You can check past order details</h3>
+
+            <div class="nav">
+                <li>
+                    <div>
+                        <a href="../Cart/cart.html">
+                            Cart
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../Categories/categories.html">
+                            Categories
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../Quantity/quantity.html">
+                            Quantity
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="../Packging_and_Shipment/packging_and_shipment.html">
+                            Packging/Shipment
+                        </a>
+                    </div>
+                </li>
             </div>
         </div>
 
@@ -125,222 +75,6 @@
         <div class="history">
             <h2 class="context0">Order history</h2>
             <li class="first">
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="history_box">
-                    <div class="history_title">
-                        <span class="date">
-                            07-12-2022 00:01 - (
-                        </span>
-                        <span class="state">
-                            Received completed )
-                        </span>
-                    </div>
-                    <div class="where">
-                        next door
-                    </div>
-                    <span class="whatever">
-                        carrot
-                    </span>
-                    <span class="amount">
-                        amount: 3
-                    </span>
-                    <span class="cost">
-                        cost: 20$
-                    </span>
-                </div>
-            </li>
-            <li>
                 <div class="history_box">
                     <div class="history_title">
                         <span class="date">
@@ -383,9 +117,34 @@
             <!-- pagebox end -->
         </div>
         <div class="footer">
-
         </div>
     </div>
+
+    <a href="Dashboard.html"><button style="
+        cursor: pointer;
+        border-style: inherit;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;">
+        <img src="home_button.svg" alt="home button" width="40px" ></button></a> 
+
+      <a href="cartpage.html"><button style="
+        cursor: pointer;
+        border-style: inherit;
+        border-radius: 10px;
+        background-color: transparent;
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 80px;
+        padding: 2px;">
+        <img src="cart_button.svg" alt="cart button" width="50px" ></button></a>
+        
 </body>
 
 </html>
